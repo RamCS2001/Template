@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/75df2f5846.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+		<script src="jQuerycode.js"></script>
+		<title>App</title>
+	</head>
+	<style>
+		.jumbotron {
+              background-image: url("photo2edited3.jpg");
+              text-align: center;
+              padding-top: 50px;
+			  height: 370px;
+        }
+		#one{
+			padding-top: 100px;
+			background-color: #B0CCE1;
+			width: 100%;
+			height: 300px;
+		}
+		footer{
+			text-align: center;
+		}
+		#appStoreIcon{
+            width: 200px;
+        }
+        #two{
+			text-align: left;
+			width: 100%;
+			height: 120px;
+			background-color:#212529;
+			color: #adb5bd;
+			padding-top: 38px;
+		}  
+		#two a{
+			text-decoration: none;
+			color: #adb5bd;
+		}
+		.disablehover{
+			display: none;
+		}
+		.activehover{
+			display: block;
+		}
+	</style>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">App</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse navbar-expand-sm" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Download</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="email" placeholder="Email"></input>
+						<input class="form-control me-2" type="password" placeholder="password"></input>
+						<button class="btn btn-success" type="submit">Login</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div class="jumbotron">
+			<h1 class="display-3"><strong>App Name</strong></h1>
+			<p class="lead">Simple and Neat App landing page template.</p>
+			<hr class="m-y-2">
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus bibendum est vitae dui condimentum euismod. Vestibulum loborti</p>
+			<p>Want to know more? Login and Join our mailing list!</p>
+		</div>
+		<div class="container">
+			<p class="display-5 text-center mt-4"><strong>Specifications</strong></p>
+			<p class="lead text-center">Maecenas dui metus, gravida et sollicitudin vel, blandit varius augue. Integer diam risus, placerat ac metus non.</p>
+			
+			<div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
+				<div class="col">
+					<div class="card h-100">
+						<img src="cardedited.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title"><i class="far fa-bookmark me-2"></i>Spec title</h5>
+							<p class="card-text">Nam iaculis lacinia tellus a consectetur. Integer ullamcorper nunc ut nibh bibendum aliquam. In a imperdiet magna.</p>
+							<a href="#" class="btn btn-primary">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="cardedited.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title"><i class="fas fa-drafting-compass me-2"></i>Spec title</h5>
+							<p class="card-text">Nam iaculis lacinia tellus a consectetur. Integer ullamcorper nunc ut nibh bibendum aliquam. In a imperdiet magna.</p>
+							<a href="#" class="btn btn-primary">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="cardedited.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title"><i class="fas fa-file-prescription me-2"></i>Spec title</h5>
+							<p class="card-text">Nam iaculis lacinia tellus a consectetur. Integer ullamcorper nunc ut nibh bibendum aliquam. In a imperdiet magna.</p>
+							<a href="#" class="btn btn-primary">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="row">
+				<div id="one">
+					 <h2>Download the app!</h2>
+					 <p><a href=""><img id="appStoreIcon" src="App-Store-Icon.png"></a></p>
+				</div>
+				<div id="two">
+					<div class="container">
+						<p>Made with<i class="fas fa-heart ms-1 me-1"></i>by <a href="https://github.com/RamCS2001">Ramkumar</a></p>
+						<i id="githubIcon"class="disablehover fab fa-github me-1"></i>
+						<a id="github" href="https://github.com/RamCS2001"></i>GitHub</a>
+					</div>
+				</div>
+			</div>
+				
+		</footer>
+		<script type="text/javascript">
+			$("#github").hover(function(){
+				if($("#githubIcon").hasClass("disablehover")){
+					$("#githubIcon").removeClass("disablehover");
+					$("#githubIcon").addClass("activehover");
+				}
+			},function(){
+				if($("#githubIcon").hasClass("activehover")){
+					$("#githubIcon").removeClass("activehover");
+					$("#githubIcon").addClass("disablehover");
+				}
+			});
+		</script>
+	</body>
+  
+</html>
